@@ -1,9 +1,7 @@
 import numpy as np
 import pandas as pd
 traindata = pd.read_csv('train_data.data')
-# print(traindata)
 ###
-#No training
 #Used for binary class classification means only 2 type of labels we have
 ###
 def calLabelProbability(dframe):
